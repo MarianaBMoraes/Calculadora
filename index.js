@@ -8,9 +8,9 @@ function calculadora() {
     console.log("Entrada inválida. Por favor, digite números válidos");
    }
 
-  let operaçao = prompt("Digite a operação desejada (+,-,*,/,%): ");
+  let operacao = prompt("Digite a operação desejada (+,-,*,/,%): ");
 
-  if (operaçao !== "+" && operaçao !== "-" && operaçao !== "*" && operaçao !== "/" && operaçao !== "%") {
+  if (operacao !== "+" && operacao !== "-" && operacao !== "*" && operacao !== "/" && operacao !== "%") {
     console.log("Operação inválida. Por favor escolha uma das operações válidas: +, -, *, /, %");
   }
 
@@ -33,12 +33,13 @@ function calculadora() {
       console.log(resultado);
       break;
     case "%":
-      resultado = (numero1 % numero2) / 100;
+      resultado = (numero1 % numero2) / 100;  console.log(``)
       console.log(resultado);
       break;
     default:
         console.log("Operação inválida.")
       break;
   }
-
+  console.log(`O resultado da operação ${numero1} ${operacao} ${numero2} é: ${resultado}`);
 }
+calculadora()
