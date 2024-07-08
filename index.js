@@ -29,17 +29,18 @@ function calculadora() {
         resultado = numero1 - numero2;
         break;
       case "*":
-        resultado = (numero1 * numero2);
+        resultado = numero1 * numero2;
         break;
       case "/":
         if (numero2 === 0) {
           console.log("Erro: Divisão por zero não é permitida.");
           continue;
         }
-        resultado = (numero1 / numero2).toFixed(2);
+        resultado = numero1 / numero2;
         break;
       case "%":
-        resultado = ((numero1 * numero2) / 100).toFixed(2);
+        resultado = numero1 * numero2
+         / 100;
         break;
       default:
         console.log(
