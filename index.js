@@ -29,7 +29,7 @@ function calculadora() {
         resultado = numero1 - numero2;
         break;
       case "*":
-        resultado = (numero1 * numero2).toFixed(2);
+        resultado = (numero1 * numero2);
         break;
       case "/":
         if (numero2 === 0) {
