@@ -76,4 +76,4 @@ Encerrando a calculadora...
 
 #### Licença
 
-- Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+- Veja o arquivo LICENSE para mais detalhes.
